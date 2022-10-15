@@ -5029,7 +5029,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fc5b62a4031b42988b5c64325ed1b9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 0
   lookDirection: {x: 0, y: 0, z: 0}
   bulletSpawn: {fileID: 1603277591}
   projectilePrefab: {fileID: 1657914042213664, guid: 0e9c239fd33d94404b671bc44ab4f6b4,
