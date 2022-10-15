@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/UnityEDU/Scenes/_Scene_0.unity
+- path: Assets/UnityEDU/Scenes (Space)/_Scene_0.unity
   isLoaded: 1
   isActive: 1
