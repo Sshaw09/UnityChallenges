@@ -42,7 +42,7 @@ public class ProjectileFire : MonoBehaviour
     void Launch()
     {
         //Spawns bullet and makes it go forward + adds speed
-        var bullet = Instantiate(projectilePrefab, bulletSpawn.position, bulletSpawn.rotation);
+        var bullet =Instantiate(projectilePrefab, bulletSpawn.position, bulletSpawn.rotation, transform.parent);
         bullet.GetComponent<Rigidbody>().velocity = bulletSpawn.forward * bulletSpeed;
     }
 

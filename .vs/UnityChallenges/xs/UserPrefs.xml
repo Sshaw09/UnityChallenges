@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{6002DF8E-3679-3130-88AB-E3B2C4D305E1}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ProjectileDestroyer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FixedResolution.cs">
     <Files>
-      <File FileName="Assets/Scripts/FixedResolution.cs" Line="10" Column="48" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="16" Column="5" />
-      <File FileName="Assets/Scripts/ProjectileDestroyer.cs" Line="15" Column="17" />
-      <File FileName="Assets/Scripts/ProjectileFire.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/FixedResolution.cs" Line="10" Column="46" />
+      <File FileName="Assets/Scripts/PlayerController.cs" />
+      <File FileName="Assets/Scripts/ProjectileDestroyer.cs" />
+      <File FileName="Assets/Scripts/ProjectileFire.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +12,7 @@
           <Node name="UnityChallenges" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="ProjectileDestroyer.cs" selected="True" />
+                <Node name="FixedResolution.cs" selected="True" />
               </Node>
             </Node>
           </Node>
