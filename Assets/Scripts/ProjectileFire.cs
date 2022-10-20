@@ -13,7 +13,7 @@ public class ProjectileFire : MonoBehaviour
     public GameObject projectilePrefab;
     public float bulletSpeed = 10f;
 
-    public Transform parent;
+    public GameObject Parent;
 
      // Start is called before the first frame update
     void Start()
@@ -44,6 +44,7 @@ public class ProjectileFire : MonoBehaviour
         //Spawns bullet and makes it go forward + adds speed
         var bullet =Instantiate(projectilePrefab, bulletSpawn.position, bulletSpawn.rotation, transform.parent);
         bullet.GetComponent<Rigidbody>().velocity = bulletSpawn.forward * bulletSpeed;
+        
     }
 
     
