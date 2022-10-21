@@ -10,10 +10,10 @@ public class ProjectileFire : MonoBehaviour
     public Vector3 lookDirection;
 
     public Transform bulletSpawn;
-    public GameObject projectilePrefab;
+    public GameObject projectile;
     public float bulletSpeed = 10f;
 
-    public GameObject Parent;
+    public GameObject parent;
 
      // Start is called before the first frame update
     void Start()
@@ -42,8 +42,10 @@ public class ProjectileFire : MonoBehaviour
     void Launch()
     {
         //Spawns bullet and makes it go forward + adds speed
-        var bullet =Instantiate(projectilePrefab, bulletSpawn.position, bulletSpawn.rotation, transform.parent);
+        var bullet =Instantiate(projectile, bulletSpawn.position, bulletSpawn.rotation, transform.parent);
+        bullet.transform.SetParent(parent.transform);
         bullet.GetComponent<Rigidbody>().velocity = bulletSpawn.forward * bulletSpeed;
+        
         
     }
 
